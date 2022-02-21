@@ -1,0 +1,54 @@
+/*------------------------------------------------------------*/
+/*                          BODY                              */
+body{
+  /*background-color: #e0e0e0;*/
+  background-image: url("/img/almacen/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*------------------------------------------------------------*/
+/*                          DIV                               */
+.main-div{
+  z-index: 2;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fafafa;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  -moz-box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+}
+
+
+/*------------------------------------------------------------*/
+/*                       BOTONES                              */
+
+
+/*------------------------------------------------------------*/
+/*                          SPAN                              */
+
+#span-1{
+  color: #FF7800;
+  font-size: 1.8em;
+}
+#span-2{
+  color: #00838F;
+  font-size: 1.3em;
+}
+#span-3{
+  color: #FFAD00;
+  font-size: 1.1em;
+}
+#span-4{
+  color: #EB6F00;
+  font-size: 1em;
+}
+
+/*------------------------------------------------------------*/
+/*                        IMAGENES                            */
+#almPic{
+  width: 50%;
+}

@@ -1,0 +1,226 @@
+/*                          BODY                              */
+/*------------------------------------------------------------*/
+body{
+  background-image: url("/img/almacen/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*
+i{
+  cursor:pointer;
+}i:hover{
+  color: #9e9e9e;
+}
+table{
+  width: 100% !important;
+  font-size: 0.9em;
+}*/
+
+/*                          DIV                               */
+/*------------------------------------------------------------*/
+.main-div{
+  z-index: 2;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 30px;
+  padding-top: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 0px;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  -moz-box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+}
+
+.subDiv{
+  padding: 5px;
+}
+
+.noPadd{
+  padding: 0px;
+}
+
+.subTitle{
+  padding: 15px;
+  background-color: #0097a7;
+  color: #f5f5f5;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 98% 50%;
+}
+
+#bloLisSalidas{
+  font-size: 0.8em;
+  font-weight: normal;
+}
+#bloLisSalidas th{
+  font-weight: bold;
+}
+
+
+.divForm {
+  z-index: 5;
+  position: fixed;
+  top: 10%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+@media only screen and (max-width: 700px) {
+    .divForm {
+        width: 100%;
+    }
+}
+
+.divForm .titulo{
+  padding: 20px;
+  background-color: #212121;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+}
+
+#forReiCon div{
+  padding: 5px;
+}.inForm{
+  padding: 20px !important;
+}
+/*
+#divForReiBie{
+  z-index:7;
+}
+
+.divLisProductos, .divLisSalidas, .divLisSalidas{
+  margin-top: 15px;
+}*/
+
+/*                          BTN                               */
+/*------------------------------------------------------------*/
+.showList, .taskBtn{
+  min-width: 250px;
+  width: 100%;
+  padding: 2px;
+  background-color: #fff;
+  border: solid 3px #00acc1;
+  color: #00acc1;
+  font-weight: bold;
+  /*-webkit-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);*/
+} .showList:hover, .taskBtn:hover{
+  background-color: #b2ebf2;
+} .showList:active, .taskBtn:active{
+  background-color: #0097a7;
+  color: #fff;
+}
+
+.returnBtn{
+  padding: 2px;
+  background-color: #fff;
+  border: solid 3px #00acc1;
+  color: #00acc1;
+  font-weight: bold;
+  margin: 4px;
+}.returnBtn:hover{
+  background-color: #b2ebf2;
+}.returnBtn:active{
+  background-color: #0097a7;
+  color: #fff;
+}
+
+/*.btnList{
+  padding: 25px;
+  background-color: #212121;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 90% 50%;
+  margin: 0px -2px 4px -2px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+}.btnListActive,
+.btnList:active{
+  background-color: #BABABA;
+  color: #000;
+}*/
+
+.btnAction{
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+}
+.btnCancel{
+  background-color: #e0e0e0;
+  color: #000;
+}
+.btnCancel:hover{
+  background-color: #bdbdbd;
+}
+.btnCancel:active{
+  background-color: #9e9e9e;
+}
+.btnAcept{
+  background-color: #00BCD4;
+  color: #fff;
+}
+.btnAcept:hover{
+  background-color: #00acc1;
+  color: #fff;
+}
+.btnAcept:focus{
+  color: #fff;
+}
+.btnAcept:active{
+  background-color: #0097a7;
+  color: #fff;
+}
+
+
+/*                          IMG                               */
+/*------------------------------------------------------------*/
+
+/*                          ELM                               */
+/*------------------------------------------------------------*/
+.tablaForm{
+  margin-top: 30px;
+} .tablaForm tr, th, td{
+  border: solid 1px #00acc1;
+} .tablaForm th{
+  text-align: center;
+  background-color: #00acc1;
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+.table tbody{
+  font-weight: normal;
+  font-size: 0.95em;
+}.table td{
+  background-color: #fff;
+}.sorting{
+  background-color: #eee;
+}.sorting_desc, .sorting_asc{
+  background-color: #bdbdbd;
+}.tabLisSalidas th{
+  text-align: center;
+}
+
+.textGreen{
+  color: #86B404;
+}.textBlue{
+  color: #0080FF;
+}.textRed{
+  color: #FA5882;
+}

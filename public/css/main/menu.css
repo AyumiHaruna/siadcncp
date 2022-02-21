@@ -1,0 +1,50 @@
+/*            DOM ELEMENTS
+----------------------------------------*/
+
+
+/*                DIVS
+----------------------------------------*/
+.navbar{
+  z-index: 999;
+  background-color: rgba(255,255,255,0) !important;
+}.nav-link{
+  padding-left: 10px;
+  padding-right: 10px;
+}.navbar-light .navbar-nav .nav-link {
+  color: #BDBDBD;
+}.navbar-light .navbar-brand{
+  color: #BDBDBD;
+}.nav-link:hover, .navbar-brand:hover{
+  color: #fff !important;
+}
+.dropdown-menu{
+  background-color: rgba(255,255,255,0) !important;
+}.dropdown-item{
+  color: #BDBDBD;
+}
+
+@media only screen and (min-width: 701px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: absolute;
+      border-radius: 0px;
+      border-color: #EEEEEE;
+  }
+}
+
+
+/*               BUTTONS
+----------------------------------------*/
+
+
+/*                 IMG
+----------------------------------------*/
+#brandLogo{
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40px;
+}
+
+
+/*            OTHER ELEMENTS
+----------------------------------------*/

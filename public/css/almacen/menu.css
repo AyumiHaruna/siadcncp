@@ -1,0 +1,29 @@
+/*-----------------------------------------------------
+                          MENU
+-----------------------------------------------------*/
+
+.navbar{
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.7) !important;
+  font-weight: bold;
+}.nav-link{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #424242;
+}.nav-link:hover{
+  background-color: rgba(0, 186, 196, 0.7);
+}.nav-item .active{
+  background-color: rgba(0, 233, 244, 0.7)!important;
+  color: #fff !important;
+}
+
+/*-----------------------------------------------------
+                          IMG
+-----------------------------------------------------*/
+
+#brandLogo{
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40px;
+}

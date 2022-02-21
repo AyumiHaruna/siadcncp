@@ -1,0 +1,257 @@
+/*                          BODY                              */
+/*------------------------------------------------------------*/
+body{
+  background-image: url("/img/almacen/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+td{
+  font-weight: normal;
+  font-size: 1.1em;
+}
+i, svg{
+  cursor: pointer;
+}
+
+/*                          DIV                               */
+/*------------------------------------------------------------*/
+.main-div{
+  z-index: 2;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  -webkit-box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  -moz-box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+}
+
+.subDiv{
+  padding: 5px;
+}
+
+.noPadd{
+  padding: 0px;
+}
+.withMargin{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.divLisLineas, .divLisCategorias{
+  margin-top: 5px;
+}
+.subTitle{
+  padding: 15px;
+  background-color: #0097a7;
+  color: #f5f5f5;
+}
+
+.divForm {
+  z-index: 5;
+  position: absolute;
+  top: 10%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+@media only screen and (max-width: 700px) {
+    .divForm {
+        width: 100%;
+    }
+}
+.divForm .titulo{
+  padding: 30px;
+  background-color: #212121;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 90% 50%;
+  margin-bottom: 10px;
+}.divForm form{
+  margin-bottom: 10px;
+}.divForm label{
+  margin-top: 5px;
+}.divForm span{
+  padding-top:15px;
+}
+
+#divForProducto{
+  z-index: 7;
+}
+
+#bloLisEntEspecificas{
+  font-size: 0.8em;
+}.textBold{
+  padding: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #6E6E6E;
+  border-left: solid 3px #D8D8D8;
+  background-color: #E6E6E6;
+}.textAnswere{
+  padding: 5px;
+  border-left: solid 3px #D8D8D8;
+  border-bottom: solid 3px #D8D8D8;
+  color: #6E6E6E;
+}
+
+/*                          BTN                               */
+/*------------------------------------------------------------*/
+.addButton{
+  width: 100%;
+  padding: 12px;
+  background-color: #fff;
+  border: solid 3px #00acc1;
+  color: #00acc1;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+} .addButton:hover{
+  background-color: #b2ebf2;
+} .addButton:active{
+  background-color: #0097a7;
+  color: #fff;
+}
+
+.btnAction{
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+}
+.btnCancel{
+  background-color: #e0e0e0;
+  color: #000;
+}
+.btnCancel:hover{
+  background-color: #bdbdbd;
+}
+.btnCancel:active{
+  background-color: #9e9e9e;
+}
+.btnAcept{
+  background-color: #00BCD4;
+  color: #fff;
+}
+.btnAcept:hover{
+  background-color: #00acc1;
+  color: #fff;
+}
+.btnAcept:focus{
+  color: #fff;
+}
+.btnAcept:active{
+  background-color: #0097a7;
+  color: #fff;
+}
+
+.divClose{
+  color: #eeeeee;
+  margin-top: -80px;
+}.divClose i{
+  cursor: pointer;
+}.divClose i:hover{
+  color: #fafafa;
+}
+
+.showList, .taskBtn{
+  width: 100%;
+  padding: 2px;
+  background-color: #fff;
+  border: solid 3px #00acc1;
+  color: #00acc1;
+  font-weight: bold;
+  /*-webkit-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);
+  box-shadow: 0px 4px 5px 0px rgba(87,87,87,1);*/
+} .showList:hover, .taskBtn:hover{
+  background-color: #b2ebf2;
+} .showList:active, .taskBtn:active{
+  background-color: #0097a7;
+  color: #fff;
+}
+
+.closeWindow{
+  background: none;
+  border: none;
+  shadow: none;
+  color: #FF0000;
+}.closeWindow:hover{
+  color: #B40404;
+}.closeWindow:active{
+  color: #B40404;
+}
+
+.pseudoBtn{
+  background: none;
+  border: none;
+  shadow: none;
+}
+/*                          IMG                               */
+/*------------------------------------------------------------*/
+
+/*                          ELM                               */
+/*------------------------------------------------------------*/
+.tablaForm{
+  margin-top: 30px;
+} .tablaForm tr, th, td{
+  border: solid 1px #00acc1;
+} .tablaForm th{
+  text-align: center;
+  background-color: #00acc1;
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+#bloLisEntradas{
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-top: 10px;
+}#bloLisEntradas th{
+  font-weight: bold;
+}#bloLisEntradas tr{
+  background-color: #fff;
+}
+
+.table tbody{
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.sorting{
+  background-color: #eee;
+}
+.sorting_desc, .sorting_asc{
+  background-color: #bdbdbd;
+}
+
+#tabLista{
+  margin-top: 10px;
+}#tabLista td{
+  font-size: 0.9em;
+}#tabLista th{
+  text-align: center;
+  background-color: #00acc1;
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+.listProdTable{
+  padding: 2px;
+}.listProdTable thead td{
+  background-color: #0097a7;
+}.listProdTable thead td{
+  text-align: center;
+  padding: 2px;
+  color: #fff;
+}

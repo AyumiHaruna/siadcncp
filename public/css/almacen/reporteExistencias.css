@@ -1,0 +1,213 @@
+/*                          BODY                              */
+/*------------------------------------------------------------*/
+body{
+  background-image: url("/img/almacen/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table{
+  color:#000;
+}
+
+/*td{
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+/*.table tr, th, td{
+  border: solid 1px #00acc1;
+} .table th{
+  text-align: center;
+  background-color: #00acc1;
+  color: #fff;
+  border: solid 1px #fff;
+}*/
+
+/*                          DIV                               */
+/*------------------------------------------------------------*/
+.main-div{
+  z-index: 2;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  padding: 25px;
+  padding-top: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  -webkit-box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  -moz-box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  box-shadow: 0px 14px 38px 0px rgba(110,110,110,1);
+  font-size: 0.9em;
+}
+.subTitle{
+  padding: 15px;
+  background-color: #0097a7;
+  color: #f5f5f5;
+}
+.divControl{
+  margin-top: 15px;
+}
+
+
+.divForm {
+  z-index: 5;
+  position: absolute;
+  top: 15%;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+@media only screen and (max-width: 700px) {
+    .divForm {
+        width: 100%;
+    }
+}
+.divForm .titulo{
+  padding: 30px;
+  background-color: #212121;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 90% 50%;
+}
+
+#divForStock{
+  position:fixed;
+  top: 250px;
+  z-index: 9;
+  border: solid 2px #00bcd4;
+  background-color: #b2ebf2;
+} #divForStockHead{
+  padding: 5px;
+  background-color: #0097a7;
+  color: #e0e0e0;
+}
+
+#bloLisProEspecificos{
+  font-size: 0.8em;
+}.textBold{
+  padding: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #6E6E6E;
+  border-left: solid 3px #D8D8D8;
+  background-color: #E6E6E6;
+}.textAnswere{
+  padding: 5px;
+  border-left: solid 3px #D8D8D8;
+  border-bottom: solid 3px #D8D8D8;
+  color: #6E6E6E;
+}
+/*                          BTN                               */
+/*------------------------------------------------------------*/
+.srcButton{
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: solid 3px #00acc1;
+  color: #00acc1;
+  font-weight: bold;
+} .srcButton:hover{
+  background-color: #b2ebf2;
+} .srcButton:active{
+  background-color: #0097a7;
+  color: #fff;
+}
+
+.listBtn, .infoBtn{
+  width: 100%;
+  background-color: #fff;
+  border: solid 2px #00acc1;
+  color: #00acc1;
+  padding: 5px;
+}.listBtn:hover, .infoBtn:hover{
+  background-color:  #99f3ff;
+}.listBtn:active, .infoBtn:active{
+  background-color: #00acc1;
+  color: #fff;
+}
+
+.closeWindow{
+  background: none;
+  border: none;
+  shadow: none;
+  color: #FF0000;
+}.closeWindow:hover{
+  color: #B40404;
+}.closeWindow:active{
+  color: #B40404;
+}.divClose{
+  color: #eeeeee;
+  margin-top: -80px;
+}.divClose i{
+  cursor: pointer;
+}.divClose i:hover{
+  color: #fafafa;
+}
+
+/*                          IMG                               */
+/*------------------------------------------------------------*/
+
+/*                          ELM                               */
+/*------------------------------------------------------------*/
+.textRed{
+  background-color: #ffb3b3;
+}.textYellow{
+  background-color: #ffeb99;
+}.textGreen{
+  background-color: #b3ffcc;
+}.blulbFlag{
+  background-color: #ffb380;
+}.thumbUp{
+  color: #0066cc
+}.thumbDown{
+  background-color: #4da6ff;
+  color: #fff;
+}.letterRed{
+  color: #e60000;
+}.letterYellow{
+  color: #e68a00;
+}.letterGreen{
+  color: #00802b;
+}
+
+#tablaStock{
+  background-color: #fff;
+  font-size: 0.8em;
+  margin-top: 30px;
+}#tablaStock tr, th, td{
+  border: solid 1px #00acc1;
+}#tablaStock th{
+  text-align: center;
+  background-color: #00acc1;
+  color: #fff;
+  border: solid 1px #fff;
+}.table tbody{
+  font-weight: normal;
+  font-size: 0.95em;
+}.sorting{
+  background-color: #eee;
+}.sorting_desc, .sorting_asc{
+  background-color: #bdbdbd;
+}.listProdTable td{
+  padding: 5px;
+}
+
+#tabLista{
+  margin-top: 10px;
+}#tabLista td{
+  font-size: 0.9em;
+}#tabLista th{
+  text-align: center;
+  background-color: #00acc1;
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+.inhabil{
+  display:none;
+}

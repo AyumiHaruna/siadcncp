@@ -1,0 +1,76 @@
+/*            DOM ELEMENTS
+----------------------------------------*/
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed
+}
+
+/*                DIVS
+----------------------------------------*/
+.container-fluid{
+  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1.5));
+  height: 100vh;
+}
+
+.mainDiv{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.imgContainer {
+  margin: 20px;
+  height: 230px;
+  width: 230px;
+}
+
+.imgContainer-2 {
+  position: relative;
+  left: 25px;
+  top: -280px;
+  margin: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.msgContainer{
+  position: relative;
+  top: -290px;
+  margin:auto;
+  padding: 10px;
+  width: 150px;
+  background-color: rgba(255,255,255,0.2);
+  border: solid 1px #BDBDBD;
+  border-radius: 5px;
+  opacity:0;
+  transition-duration: 0.5s;
+  color: #fff;
+  letter-spacing: 2px
+}.moving{
+  top: -250px;
+  opacity:1;
+}
+
+/*               BUTTONS
+----------------------------------------*/
+
+
+
+/*                 IMG
+----------------------------------------*/
+.btnBg{
+  height: 230px;
+}.btnBg2{
+  height: 280px;
+  cursor: pointer;
+}.spin{
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/*            OTHER ELEMENTS
+----------------------------------------*/

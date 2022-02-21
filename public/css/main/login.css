@@ -1,0 +1,114 @@
+/*------------------------------------------------------------*/
+/*                          BODY                              */
+
+.videoFondo {
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+
+    transform: translateX(-50%) translateY(-50%);
+    background: url('') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+input[type="text"], input[type="password"], .loginInput select{
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #00838f;
+  height:45px;
+  color: #00838f;
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+.input-group-text{
+  background-color: #00838f;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/*------------------------------------------------------------*/
+/*                          DIV                               */
+
+.divLogin{
+  z-index: 2;
+  position: fixed;
+  top: 20%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+.subDivLogin{
+  z-index: 3;
+  padding: 30px;
+  background: transparent;
+  opacity: 1.5;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+.divSubTitulo{
+  margin-top: -15px;
+  margin-bottom: 10px;
+  background-color: #bdbdbd;
+  color: #616161;
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.divForms{
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+.subMenu{
+  padding: 20px;
+}
+.spanBtn{
+  color: #9e9e9e;
+  font-size: 0.9em;
+  font-weight: bold;
+  cursor: pointer;
+} .spanBtn:hover{
+    color: #616161;
+  }
+
+
+/*------------------------------------------------------------*/
+/*                       BOTONES                              */
+
+.btnLogin{
+  background-color: #00838f;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+.btnLogin:hover, .btnLogin:focus{
+  background-color: #0097a7;
+  color: #fff;
+}
+.btnLogin:active{
+  background-color: #006064;
+  color: #fff;
+}
+
+/*------------------------------------------------------------*/
+/*                        IMAGENES                            */
+
+.logoCultura{
+  width: 100%;
+}
+.logoInah{
+  width: 80%;
+}

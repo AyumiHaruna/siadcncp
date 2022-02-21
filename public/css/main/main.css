@@ -1,0 +1,47 @@
+/*            DOM ELEMENTS
+----------------------------------------*/
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url('{{ public_path('fonts/Roboto/Roboto-Medium.ttf') }}')
+}
+
+html, body {
+  font-family: "Roboto-Medium", Verdana, Tahoma;
+  height: 100vh;
+}
+
+/*                DIVS
+----------------------------------------*/
+.divMenu{
+  position:relative;
+  top: 15px;
+}
+
+.footer{
+  font-size: 0.8em;
+  background-color: #BDBDBD;
+  box-shadow: 0 50vh 0 50vh #BDBDBD;
+  padding: 15px;
+  padding-top: 15px;
+  color: #757575;
+  letter-spacing: 2px;
+
+  z-index: 2;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+/*               BUTTONS
+----------------------------------------*/
+
+
+/*                 IMG
+----------------------------------------*/
+
+
+/*            OTHER ELEMENTS
+----------------------------------------*/
+.noPadd{
+  padding: 0px;
+}
